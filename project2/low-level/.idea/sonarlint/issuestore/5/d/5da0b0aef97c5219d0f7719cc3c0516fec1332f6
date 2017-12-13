@@ -1,0 +1,20 @@
+
+\squid:S1854"ARemove this useless assignment to local variable "myButtonState".(´èÖ8İÄÆ•ƒ,
+Nsquid:S1481"2Remove this unused "buttonPressed" local variable.(¿Ô£8İÄÆ•ƒ,
+csquid:UselessImportCheck":Remove this unused import 'com.pi4j.io.gpio.PinDirection'.(¹˜óÏ8×À””ƒ,
+€squid:UselessImportCheck"RRemove this unused import 'com.pi4j.io.gpio.event.GpioPinDigitalStateChangeEvent'.(Îëïûÿÿÿÿ8×À””ƒ,
+nsquid:UselessImportCheck"@Remove this unused import 'com.pi4j.io.gpio.event.PinEventType'.(Úôƒ©ûÿÿÿÿ8×À””ƒ,
+hsquid:S1223"LRename this method to prevent any misunderstanding or make it a constructor.(Çµí‘8½ıÖ”ƒ,
+]squid:S1854"ARemove this useless assignment to local variable "buttonPressed".(¿Ô£8İÄÆ•ƒ,
+Msquid:S1481"2Remove this unused "myButtonState" local variable.(´èÖ8İÄÆ•ƒ,
+csquid:S00101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(·š†‡
+xsquid:UselessImportCheck"JRemove this unused import 'com.pi4j.io.gpio.event.GpioPinListenerDigital'.(ÚÜÕûÿÿÿÿ8×À””ƒ,
+csquid:UselessImportCheck"5Remove this unused import 'com.pi4j.io.gpio.GpioPin'.(ï½Â‹şÿÿÿÿ8×À””ƒ,
+xsquid:UselessImportCheck"JRemove this unused import 'com.pi4j.io.gpio.trigger.GpioSyncStateTrigger'.(ğÅ‹´úÿÿÿÿ8×À””ƒ,
+rsquid:UselessImportCheck"IRemove this unused import 'com.pi4j.io.gpio.trigger.GpioSetStateTrigger'.(Â öë8×À””ƒ,
+ysquid:UselessImportCheck"KRemove this unused import 'com.pi4j.io.gpio.trigger.GpioPulseStateTrigger'.(¬­ŸÎùÿÿÿÿ8×À””ƒ,
+isquid:UnusedPrivateMethod":Remove this unused private "readPinAndWriteOutput" method.(ÜÎ¨Üÿÿÿÿÿ8£ïÁ•ƒ,
+ksquid:UselessImportCheck"CRemove this unused import 'com.pi4j.io.gpio.event.GpioPinListener'.(¤ñO8×À””ƒ,
+nsquid:UselessImportCheck"@Remove this unused import 'com.pi4j.io.gpio.event.GpioPinEvent'.(¥õÍÀûÿÿÿÿ8×À””ƒ,
+rsquid:UselessImportCheck"IRemove this unused import 'com.pi4j.io.gpio.trigger.GpioCallbackTrigger'.(ô˜8×À””ƒ,
+csquid:UselessImportCheck"5Remove this unused import 'com.pi4j.io.gpio.PinMode'.(äÌÀüÿÿÿÿ8×À””ƒ,
