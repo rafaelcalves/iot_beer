@@ -46,7 +46,7 @@ public class Main {
 		// an explicit length of time in milliseconds
 		myLed.pulse(1000);
 
-		
+
 		gpio.unprovisionPin(myLed);
 	}
 
@@ -65,6 +65,8 @@ public class Main {
 
 		// use convenience wrapper method to interrogate the button state
 		boolean buttonPressed = myButton.isHigh();
+
+		gpio.unprovisionPin(myButton);
 	}
 }
 
