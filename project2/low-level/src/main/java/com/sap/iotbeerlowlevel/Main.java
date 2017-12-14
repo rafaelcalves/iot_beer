@@ -10,12 +10,38 @@ import com.pi4j.io.gpio.PinMode;
 import com.pi4j.io.gpio.PinPullResistance;
 import com.pi4j.io.gpio.PinState;
 import com.pi4j.io.gpio.RaspiPin;
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
 
 public class Main {
+	final static Logger log = Logger.getLogger(Main.class);
 
 	public static void main(String[] args){
 
-		testBlink();
+		//testBlink();
+
+		// create gpio controller
+		final GpioController gpio = GpioFactory.getInstance();
+
+		// define gpio pin number 1 as an output pin and turn it off
+		final GpioPinDigitalOutput pin = gpio.provisionDigitalOutputPin(
+				RaspiPin.GPIO_01, "LED", PinState.LOW);
+
+		// set shutdown state for pin 1 (LED)
+		pin.setShutdownOptions(true, PinState.LOW);
+
+		try {
+			// toggle pin state for 25 times
+			for (int i = 0; i < 25; i++) {
+				pin.toggle();
+				log.log(Level.INFO, pin.getState());
+				Thread.sleep(2500);
+			}
+			// done shut down the GPIO controller now
+			gpio.shutdown();
+		} catch (InterruptedException e) {
+			log.log(Level.ERROR, e);
+		}
 	}
 	private static void testBlink(){
 		for(int i=0; i<30; i++) {
