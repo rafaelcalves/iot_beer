@@ -45,6 +45,9 @@ public class Main {
 		// use pulse method to set the pin to the HIGH state for
 		// an explicit length of time in milliseconds
 		myLed.pulse(1000);
+
+		
+		gpio.unprovisionPin(myLed);
 	}
 
 	private static void readPinAndWriteOutput(){

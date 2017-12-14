@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/low-level.iml" filepath="$PROJECT_DIR$/low-level.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.sap.iotbeer-lowlevel.iml" filepath="$PROJECT_DIR$/com.sap.iotbeer-lowlevel.iml" />
     </modules>
   </component>
 </project>
