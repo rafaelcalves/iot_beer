@@ -25,7 +25,7 @@ public class Main {
 
 		// define gpio pin number 1 as an output pin and turn it off
 		final GpioPinDigitalOutput pin = gpio.provisionDigitalOutputPin(
-				RaspiPin.GPIO_01, "LED", PinState.LOW);
+				RaspiPin.GPIO_04, "LED", PinState.LOW);
 
 		// set shutdown state for pin 1 (LED)
 		pin.setShutdownOptions(true, PinState.LOW);
