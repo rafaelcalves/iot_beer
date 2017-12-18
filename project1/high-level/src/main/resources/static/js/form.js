@@ -1,5 +1,16 @@
 $(function(){
 
+    $('.your-class').slick({
+        dots: true,
+        infinite: false,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        adaptiveHeight: true,
+        draggable: false
+    });
+
     $('[data-toggle="tooltip"]').tooltip();
 
     $(".req-input input, .req-input textarea").on("click input", function(){
